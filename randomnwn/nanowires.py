@@ -10,7 +10,7 @@ from typing import List, Tuple, Union, Iterable, Dict
 from numbers import Number
 import numpy as np
 from shapely.geometry import LineString
-import networkx as nx
+import networkx as nx 
 
 from .line_functions import (
     create_line, find_intersects, find_line_intersects, add_points_to_line
